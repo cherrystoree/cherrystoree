@@ -1,0 +1,445 @@
+header {
+            background: linear-gradient(90deg, #ac4b4b, #b84d4d);
+            color: white;
+            padding: 12px 20px;
+        }
+
+        .nav-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+        }
+
+        .brand {
+            font-weight: 700;
+            font-size: 1.25rem;
+            letter-spacing: 0.3px;
+        }
+nav ul {
+            list-style: none;
+            display: flex;
+            /* <-- aquí está Flexbox para la nav */
+            gap: 16px;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 6px;
+            transition: background .18s, transform .12s;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.12);
+            transform: translateY(-2px);
+        }
+
+        /* Botón de acción en la nav */
+        .cta {
+            background: rgba(255, 255, 255, 0.12);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+        /* Centrar contenido del header */
+header {
+  display: flex;
+  flex-direction: column; /* los elementos van en columna: título arriba, menú abajo */
+  align-items: center;    /* centra horizontalmente */
+  text-align: center;     /* centra texto dentro de los elementos */
+  padding: 20px 0;
+  background-color: #ffe6eb; /* opcional: color de fondo del header */
+  font-family: 'Lobster Two', cursive; /* aplica la fuente al header */
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5px 0; /* antes estaba 20px, reducí para acercar todo */
+  background-color: #ffe6eb;
+  font-family: 'Lobster Two', cursive;
+}
+
+/* Título */
+header h1 {
+  font-size: 60px;
+  color: #4d050b;
+  margin-bottom: 20px;
+}
+
+/* Menú de navegación centrado */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* centra horizontalmente los enlaces */
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilo de los enlaces */
+nav ul li a {
+  text-decoration: none;
+  color: #f7f4f5;
+  padding: 10px 20px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+/* Hover de los enlaces */
+nav ul li a:hover {
+  color: #000000;
+}
+
+/* Botón destacado */
+nav ul li a.cta {
+  background-color: #ce323f;
+  color: white;
+  border-radius: 10px;
+}
+
+nav ul li a.cta:hover {
+  background-color: #ff8fa3;
+}
+
+header h1 {
+  font-family: 'Lobster Two', cursive;
+  color: #faf8f8;
+  font-size: 60px;
+  text-align: center;
+  margin: 20px 0;
+} 
+header h1:hover {
+  transform: scale(1.05); 
+}
+.fila {
+            display: flex;       /* organiza los hijos en fila */
+            justify-content: center; /* centra la fila horizontalmente */
+            gap: 0px;           /* espacio entre imágenes */
+            margin-bottom: 20px; /* espacio entre filas */
+        }
+
+        .fila img {
+            width: 200px;        /* tamaño de las imágenes */
+            height: auto;        /* mantiene la proporción */
+        }
+        header {
+
+background: linear-gradient(90deg, #ac4b4b, #b84d4d);
+
+        color: white;
+
+        padding: 12px 20px;
+
+    }
+
+
+
+    .nav-row {
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: space-between;
+
+        gap: 16px;
+
+    }
+
+
+
+    .brand {
+
+        font-weight: 700;
+
+        font-size: 1.25rem;
+
+        letter-spacing: 0.3px;
+
+    }
+
+nav ul {
+
+list-style: none;
+
+        display: flex;
+
+        /* <-- aquí está Flexbox para la nav */
+
+        gap: 16px;
+
+        align-items: center;
+
+    }
+
+
+
+    nav a {
+
+        color: white;
+
+        text-decoration: none;
+
+        padding: 8px 12px;
+
+        border-radius: 6px;
+
+        transition: background .18s, transform .12s;
+
+        display: inline-block;
+
+    }
+
+
+
+    nav a:hover {
+
+        background: rgba(255, 255, 255, 0.12);
+
+        transform: translateY(-2px);
+
+    }
+
+
+
+    /* Botón de acción en la nav */
+
+    .cta {
+
+        background: rgba(255, 255, 255, 0.12);
+
+        border: 1px solid rgba(255, 255, 255, 0.18);
+
+    }
+    
+
+    /* Centrar contenido del header */
+
+/*inicio?*/
+    header {
+
+display: flex;
+
+flex-direction: column; /* los elementos van en columna: título arriba, menú abajo */
+
+align-items: center;    /* centra horizontalmente */
+
+text-align: center;     /* centra texto dentro de los elementos */
+
+padding: 20px 0;
+
+background-color: #ffe6eb; /* opcional: color de fondo del header */
+
+font-family: 'Lobster Two', cursive; /* aplica la fuente al header */
+
+}
+
+header {
+
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+text-align: center;
+
+padding: 5px 0; /* antes estaba 20px, reducí para acercar todo */
+
+background-color: #ffe6eb;
+
+font-family: 'Lobster Two', cursive;
+
+}
+
+/* Título */
+
+header h1 {
+
+font-size: 60px;
+
+color: #4d050b;
+
+margin-bottom: 20px;
+
+}
+
+/* Menú de navegación centrado */
+
+nav ul {
+
+list-style: none;
+
+display: flex;
+
+justify-content: center; /* centra horizontalmente los enlaces */
+
+padding: 0;
+
+margin: 0;
+
+}
+
+/* Estilo de los enlaces */
+
+nav ul li a {
+
+text-decoration: none;
+
+color: #f7f4f5;
+
+padding: 10px 20px;
+
+font-size: 20px;
+
+transition: color 0.3s;
+
+}
+
+/* Hover de los enlaces */
+
+nav ul li a:hover {
+
+color: #000000;
+
+}
+
+/* Botón destacado */
+
+nav ul li a.cta {
+
+background-color: #ce323f;
+
+color: white;
+
+border-radius: 10px;
+
+}
+
+nav ul li a.cta:hover {
+
+background-color: #ff8fa3;
+
+}
+
+header h1 {
+
+font-family: 'Lobster Two', cursive;
+
+color: #faf8f8;
+
+font-size: 60px;
+
+text-align: center;
+
+margin: 20px 0;
+
+} ordena este css ahora
+header h1:hover {
+
+transform: scale(1.05);
+
+}
+
+/*pagina de inicio*/
+
+/*productos*/
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, #fff5f5, #ffeaea);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 3rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.producto {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(172, 75, 75, 0.2);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.producto:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 12px 25px rgba(184, 77, 77, 0.25);
+}
+
+
+.producto img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 3px solid #b84d4d;
+}
+
+
+.producto h2 {
+  font-size: 1.3rem;
+  margin: 1rem 0 0.5rem;
+  color: #ac4b4b;
+}
+
+.producto p {
+  color: #666;
+  font-size: 0.95rem;
+  margin: 0 1rem 1rem;
+}
+
+
+.precio {
+  font-weight: bold;
+  color: #b84d4d;
+  font-size: 1.1rem;
+}
+
+
+.btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #ac4b4b, #b84d4d);
+  color: white;
+  text-decoration: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 25px;
+  transition: background 0.3s, transform 0.2s;
+  margin-bottom: 1rem;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #b84d4d, #ac4b4b);
+  transform: scale(1.05);
+}
+
+
+.producto {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: aparecer 0.6s ease forwards;
+}
+
+.producto:nth-child(1) { animation-delay: 0.2s; }
+.producto:nth-child(2) { animation-delay: 0.4s; }
+.producto:nth-child(3) { animation-delay: 0.6s; }
+
+@keyframes aparecer {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
